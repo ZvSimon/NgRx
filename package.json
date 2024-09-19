@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@ngrx/store": "^18.0.2"
+  }
+}
