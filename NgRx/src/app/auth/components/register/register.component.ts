@@ -27,9 +27,7 @@ export class RegisterComponent {
 
   onSubmit() {
     console.log('form', this.form.getRawValue())
-    if (this.form.invalid) {
-      return
-    }
+
     const request: RegisterRequestInterface = {
       user: this.form.getRawValue(),
     }
